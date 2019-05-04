@@ -23,6 +23,8 @@ namespace CSLesson8
 
             conn.Open();
 
+
+
             using (SqlDataReader reader = cmd.ExecuteReader())
             {
                 while (reader.Read())
